@@ -20,15 +20,15 @@
 
 ### Запуск проекта:
 
-* Установить зависимости:
+* Установить зависимости
 
 ```bash
 pip install -r requirements.txt
 ```
 
-* Добавить в виртуальное окружение переменные:SECRET_KEY, DEBUG_FLAG, DB_ENGINE, DB_NAME, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, EMAIL, EMAIL_PASS
+* Добавить в виртуальное окружение переменные: SECRET_KEY, DEBUG_FLAG, DB_ENGINE, DB_NAME, DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, EMAIL, EMAIL_PASS
 
-* Cоздать базу и прогнать миграции:
+* Cоздать базу и прогнать миграции
 
 ```bash
 manage.py makemigrations
